@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      background-image: url(livros.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover
+      
+    }
+    span{
+      width: 50vw;
+    }
+    section {
+      width: 50vw;
+      display: flex;
+      flex-direction: column;
+      padding: 20%;
+      background-image: url(pc.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    h1 {
+      color: black;
+    }
+    
+    .form {
+      background: rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      padding: 10px;
+      gap: 10px;
+    }
+    
+    .form input {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: black;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    
+    button {
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <span></span>
+  <section>
+    <h1>Cadastrar fornecedor</h1>
+    <div class="form">
+      <input type="text" placeholder="Razão Social">
+      <input type="text" placeholder="CNPJ">
+      <input type="text" placeholder="Email">
+      <input type="text" placeholder="Telefone">
+      <input type="text" placeholder="Endereço">
+      <input type="text" placeholder="CEP">
+      <input type="text" placeholder="Novo Pedido">
+    </div>
+    <button>Finalizar Cadastro</button>
+  </section>
+</body>
+</html>
