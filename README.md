@@ -1,5 +1,14 @@
 # Projeto Integrador - Grupo 23
 
+## Diagramas
+
+### Diagrama de Caso de Uso
+
+![image](https://github.com/lidiagramos/projeto_integrador_grupo23/assets/75230403/8aad5905-1c4c-4b6e-833f-e4108765bb4a)
+
+### Diagrama de Classe
+
+![image](https://github.com/lidiagramos/projeto_integrador_grupo23/assets/75230403/c959348f-1ae7-4add-88e7-88a2a78a91f0)
 
 ## Prototipação
 
